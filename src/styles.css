@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+div.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.item {
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+}
+
+div.item:last-child {
+  margin-right: 0;
+}
+
+div.item h3 {
+  margin-top: 5px;
+}
